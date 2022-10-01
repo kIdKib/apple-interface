@@ -1,0 +1,529 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+  integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body >
+    <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 bg-black">
+        <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+            <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+                <a href="#home" class="text-sm font-bold leading-relaxed inline-block 
+                mr-4 py-2 whitespace-nowrap uppercase text-white">Home</a>
+                <button 
+                class="curser-pointer text-xl leading-none px-3 py-1 border-solid border-transparent 
+                rounder bg-transparent block lg:hidden lg:outline focus:outline-none" 
+                type="button" onclick="toggleNavbar('example-collapse-navbar')">
+                    <i class="text-white fas fa-bars"></i>
+                </button>
+            </div>
+
+            <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden" 
+                id="example-collapse-navbar">
+                <ul class="flex flex-col lg:flex-row lsit-none mr-auto">
+                    <li class="flex items-center">
+                        <a href="#ipad" class="lg:text-white lg:hover:text-gray-300 text-gray-800 
+                            px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                            <i class="lg:text-gray-300 text-gray-500 fas fa-tablet text-lg leading-lg mr-2"></i>Ipad
+                        </a>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="#macbook" class="lg:text-white lg:hover:text-gray-300 text-gray-800 
+                            px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                            <i class="lg:text-gray-300 text-gray-500 fas fa-laptop text-lg leading-lg mr-2"></i>Macbook
+                        </a>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="#team" class="lg:text-white lg:hover:text-gray-300 text-gray-800 
+                            px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                            <i class="lg:text-gray-300 text-gray-500 fas fa-users text-lg leading-lg mr-2"></i>Team
+                        </a>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="#contact" class="lg:text-white lg:hover:text-gray-300 text-gray-800 
+                            px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                            <i class="lg:text-gray-300 text-gray-500 fas fa-address-card text-lg leading-lg mr-2"></i>Contact us
+                        </a>
+                    </li>
+                </ul>
+                <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+                    <li class="flex items-center ">
+                        <a href="#" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 
+                        flex items-center text-xs uppercase font-bold">
+                            <i class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg"></i>
+                            <span class="lg:hidden inline-block ml-2"></span>
+                        </a>
+                    </li>
+                    <li class="flex items-center ">
+                        <a href="#" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 
+                        flex items-center text-xs uppercase font-bold">
+                            <i class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg"></i>
+                            <span class="lg:hidden inline-block ml-2"></span>
+                        </a>
+                    </li>
+                    <li class="flex items-center">
+                        <button class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase 
+                        px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 mb-3" 
+                        type="button"><i class="fas fa-arrow-circle-down mr-2"></i>Buy New Macbook</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="relative bg-white flex min-h-full min-w-full flex-col" id="home"
+            style="padding-top: 7rem; " >
+            <div class="w-full h-full flex">
+                <video autoplay muted class="top-0 bg-center" style="margin: auto;">
+                    <source src="https://www.apple.com/105/media/us/macbook-pro-14-and-16/2021/a1c5d17e-d8e4-4fa8-b70a-bc61bd266412/anim/hero-intro/large.mp4">
+                </video>
+            </div>
+            <div class="container relative mx-auto hidden md:block">
+                <div class="items-center flex flex-wrap">
+                    <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="pb-20 bg-gray-100" id="ipad">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-wrap">
+
+                    <div class=" w-full md:w-4/12 px-4 text-center ">
+                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg mt-6 md:-mt-16">
+                            <div class="px-4 py-5 flex-auto">
+                                <div class="text-white p-3 text-center inline-flex item-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                                    <i class="fas fa-tablet"></i>
+                                </div>
+                                <h6 class="text-xl font-semibold">Ipad Pro</h6>
+                                <p class="mt-2 mb-4 text-gray-600">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quis harum? Adipisci eveniet
+                                    voluptates officiis minima nostrum dolorem repudiandae commodi?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" lg:pt-12 w-full md:w-4/12 px-4 text-center ">
+                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg md:-mt-16";>
+                            <div class="px-4 py-5 flex-auto">
+                                <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
+                                    <i class="fas fa-laptop"></i>
+                                </div>
+                                <h6 class="text-xl font-semibold">Macbook Pro</h6>
+                                <p class="mt-2 mb-4 text-gray-600">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quis harum? Adipisci eveniet
+                                    voluptates officiis minima nostrum dolorem repudiandae commodi?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" w-full md:w-4/12 px-4 text-center ">
+                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg md:-mt-16">
+                            <div class="px-4 py-5 flex-auto">
+                                <div class="text-white p-3 text-center inline-flex item-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                                    <i class="fas fa-mobile"></i>
+                                </div>
+                                <h6 class="text-xl font-semibold">Iphone Pro</h6>
+                                <p class="mt-2 mb-4 text-gray-600">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quis harum? Adipisci eveniet
+                                    voluptates officiis minima nostrum dolorem repudiandae commodi?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-wrap items-center mt-32">
+                    <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+                        <div class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-200">
+                            <i class="fas fa-tablet text-xl"></i>
+                        </div>
+                        <h3 class="text-3xl mb-2 font-semibold">New Iphone Pro.</h3>
+                        <p class="text-lg font-light leading-relaxed mt-4 text-gray-700">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quas voluptates est itaque aut quod dolor mollitia nemo 
+                            excepturi, neque accusantium. Dolorum quos sequi dolore impedit sunt voluptas earum praesentium.
+                        </p>
+                        <p class="text-lg font-light leading-relaxed mt-4 text-gray-700">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quas voluptates est itaque aut quod dolor mollitia nemo 
+                            excepturi, neque accusantium. Dolorum quos sequi dolore impedit sunt voluptas earum praesentium.
+                        </p>
+                    </div>
+                    <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+                        <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-black ">
+                            <img src="https://img.freepik.com/free-psd/phone-concrete-wall-with-shadow_23-2149387226.jpg?t=st=1663792083~exp=1663792683~hmac=21ecc8ec3f8e2aaa6584d2f5302af0926a8369a1b51d499950388d8988c5cf3b" class="w-full align-middle rounded-t-lg" alt="...">
+                            <blockquote class="relative p-8 mb-4 bg-black text-white">
+                                <h4 class="text-lg font-bold text-white">Iphone Pro 9.2 & 5inch.</h4>
+                                <p class="text-md font-light mt-2 text-white">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quis, 
+                                    possimus iste earum nostrum provident ratione cum quam sed reiciendis.
+                                </p>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="relative  py-20 bg-black" id="macbook">
+            <div class="bottom-auto top-0 left-0 right-0 w-full absolute overflow-hidden -mt-20" style="height:80px ;">
+                <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2500 100" x="0" y="0">
+                    <polygon class="text-black fill-current" points="2500 0 2500 100 0 100"></polygon>
+                </svg>
+            </div>
+            <div class="container mx-auto px-4 bg-black">
+                <div class="items-center flex flex-wrap">
+                    <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+                        <img src="https://www.apple.com/v/macbook-pro-13/m/images/overview/magic_keyboard__brx9diaauwaa_large.jpg" class="max-w-full rounded-lg shadow-lg " style="width: 400px;" alt="">
+                    </div>
+                    <div class="w-full md:w-5/12 ml-auto mr-auto px-4 ">
+                        <div class="md:pr-12">
+                            <div class="text-balck-300 text-center inline-flex items-center justify-center w-16 h-16 mb-10 shadow-lg rounded-full bg-white">
+                                <i class="fas fa-laptop text-xl"></i>
+                            </div>
+                            <h3 class="text-3xl font-semibold text-white">Macbook Pro 12&16inc.</h3>
+                            <p class="mt-4 text-lg leading-relaxed text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque accusantium obcaecati ipsa repudiandae corporis quae culpa cupiditate possimus debitis aspernatur. Quae fugit, tempora error recusandae necessitatibus eum ipsum sapiente ea.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="relative py-20 bg-white flex flex-col justify-center items-center" id="team">
+            <div class="bottom-auto top-0 left-0 right-0 w-full absolute overflow-hidden -mt-20" style="height:80px ;">
+                <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2500 100" x="0" y="0">
+                    <polygon class="text-white fill-current" points="2500 0 2500 100 0 100 "></polygon>
+                </svg>
+            </div>
+            <div class="container flex w-full">
+                <div class=" w-full lg:w-6/12 text-center mx-auto">
+                    <h1 class="text-4xl font-semibold">Here Are our Legends</h1>
+                    <p class="leading-relaxed pt-3">Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Illum ad qui amet? Enim blanditiis assumenda, ea repudiandae culpa reprehenderit nesciunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Eum quo quas ab ipsum fuga sequi vitae veritatis aspernatur 
+                        tempore! Aperiam.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="container flex flex-wrap mt-10">
+                <div class="md:w-6/12 lg:w-3/12 mx-auto mb-10">
+                    <div class="text-center items-center ">
+                        <img class="rounded-full mx-auto shadow-lg" style="max-width:120px; object-fit: cover; min-height: 120px;" 
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkv7GSiS7uoFOHpPGXHb8Nr42VzR2kSDxknw&usqp=CAU" 
+                        alt="Steve Jobs">
+                        <h3 class="font-semibold text-lg mt-4 mb-1">Steve Jobs</h3>
+                        <p class="text-gray-500 text-xs mb-3">FORMER CEO</p>
+                        <div class="flex justify-center">
+                            <button class=" mr-1 mb-1 outline-none rounded-full bg-blue-400 w-8 h-8">
+                                <i class="fa-brands fa-twitter text-white"></i>
+                            </button>
+                            <button class="mr-1 mb-1 outline-none rounded-full bg-blue-600 w-8 h-8">
+                                <i class="fa-brands fa-facebook text-white"></i>
+                            </button>
+                            <button class="mr-1 mb-1 outline-none rounded-full bg-blue-500 w-8 h-8">
+                                <i class="fa-brands fa-instagram text-white"></i>
+                            </button>
+                        </div>
+
+                
+                    </div>
+                </div>
+
+                <div class="w-full md:w-6/12 lg:w-3/12">
+                    <div class="text-center items-center mb-10">
+                        <img class="rounded-full mx-auto shadow-lg" style="max-width:120px; object-fit: cover; min-height: 120px;" 
+                        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCB
+                        YWEhgVEhUYGBgaGhkZGBgYGBgZGhgYGhoaGRgaGRgcIS4lHB4rIRgYJjgmKy8xNTU1
+                        GiQ7QDs0Py40NTEBDAwMEA8QHhISHjQrJCs0NDQ0MTQ0NDQ0NDQ0NDQ0NDQ0NDQ0ND
+                        Q0NDQ0NDQ0NDQ0NDQ0NDQ0NDQxNDQ0NDQ0NP/AABEIAKgBKwMBIgACEQEDEQH/xAAc
+                        AAABBQEBAQAAAAAAAAAAAAAEAAIDBQYBBwj/xABDEAACAQIEBAMFBQUFBwUAAAABAg
+                        ADEQQSITEFQVFhBiJxEzKBkaFCUrHB0RRigpLwByNTcuEkM6Ky0uLxFRZjk8L/xAAZA
+                        QADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAnEQACAgICAgEDBQEAAAAAAAAAAQIRAyE
+                        SMUFRIgRhgRMUQnGhMv/aAAwDAQACEQMRAD8A9RijrRWm9mAy0Vo60Vo7AZaK0faLL
+                        EAy0aaQ6fKS2itACH2Z5H5xG/T5Sa0VpLimPkwfP1jg0lKxppD/AMSXD0VyGBo684a
+                        XQ/OIqekXFodo6J2MDdZ0GSUOj1guIxSp3PT9TK1+J1TtZB/lufzg2CRoLSMzOvxFxt
+                        VN+jAC/wCkcnG2Bs7C/wB0rr8x/rFyG4l/FeAYfiqMbEAHsQfjbeGg31G3WOyaOmMb
+                        odp0xpaAysx3CQfNT0PTkZTPmRrG4ImuoUcxudvxj8bgabrZlA78xFQGVqBKws1lfk
+                        3JvWU9WmyNryltj+HPT8wuyX94cvWRYWstRMlTfXK3T17QAP4JxTQI505HpLxph61B
+                        qb/1YjqJpeDcRDrkY68j17QQBzCNZZMwjCIwISkYUkxEawgBAVnLSUxhgBGVE5ljzG
+                        wAvLRWjopqZjbRWjooANtFaOihYDbRWjooANtFaOigA20Vo6KFhQ207adihYUcy9Z
+                        FUQAaCx7Sa0BxmINyqqTbc6W685EpUi4RbYHiU72H1+Mqq/s1+162UW+JP6yXGpUc
+                        auFHRbn533gY4frmJJI2vynNLJ6R1Qw+2R1ayAedNv3hmPw2+t5HS4qzsFoJYC92dR
+                        YabLqBfUW1hD4YWtbf6wZkCBgR72h9CCG+FiR/EZEcjsuWJVoISuH1JLHchiub1W2q
+                        /GWfDuIqpsGupOqt7wvzHXlM/galkFlu1ibWuBb7I7i4HXTtDUINS5UDKpby82Pl1F
+                        u/06TZSOdxNa56ayehhub/ACgvCsavs7N766HuOR/L4SZ8Wze4h9ZoZ1QVUqBR+UFF
+                        3PacpYVm1fyj6whSiCwIEAHlBbLbTpM1xTw/u9DfUlOvpLx8SSbIPiZNSByi+/P1gB
+                        iMPigwNOqNtNd1MHem1J7g6bgiazjHBErAsvlfkw5+szCuVY0a4seR/MGIDS8PxYqJ
+                        fmN4QZk8FWajUsdvxE1aOGUMNjGgGkRjSQyNoxIjJkbGPaROYhnCY28aZy8ANHFO2i
+                        tNLJo5FadtFCwoVorRRRWFCtFadihYUctFadihYUctFadihYUctFadihYUISqxr6m0
+                        s6rhVLMQABqToJnMRjEditNlY6bEGZZpaNsK2OQZvhIqpF9IFiOIeyUGp5Acw81hqD
+                        p+H1lYOMO7WpUyw6tcfjr9Jy3aOzouoLjxoCesAfHV0bzolv8AMQfnlkKeJ6L5ldHV
+                        l95SE+hzaxKLfSJckuyxWnfRepbTS4ykfU/jOvdainkyutxby5gCD635/rM8/iGmrA
+                        0845EMttOxnMX4hRmTzi6upBIIuBm8p/mnRFOto55VfZuuEkNUsQbWsb33Iz2t6EXm
+                        jWrYWt8pkfDWOWoylWB2JIPW979tppqmKpjd1HxE1jTRjK0yPF4pjoFYd76fSDohJBA
+                        J9NvnHVeMUF3qL+Mq8T41wtM5S505BTKr0K/Zo6NHLrfWOBsNZnsB4woVzakfN91rqT
+                        6dYYrFrE89bX0kjsOrYjkuveVvEeGrWSz6MNVYbgwouBuQILUxZuQLW6xAZ5qTFTTqe
+                        +mqn7y9Zb8BdsjKdr3Hx3+s5iaYYZr2I1B7cxJ+HWsWGi7L37xrsAwmRu0TvBqlTvGA
+                        9mkLuJE1XvA61cZrZhJAMZxF7QSsbErf3hJMx7xNgjXnGU/8RP5hGnH0v8VP5hMwMPg
+                        AP99R+CXnCvDxo1enftT/ANJtSJs0zcUoDesn86/rIjxvDf46fzrM+mH4eWIWshPMCm
+                        Db/hiGK4cDb2+o0sKWv/JD49BbLxuP4YW/vkN+jCcPiLDf4yfOVBx2AG9dv/r/AOyRV
+                        eMcOQjNXfXa1I/lThSCy6PiPD8qi/UyJvEdD/EPwRv0lYOM4DKG9rVsdj7M/wDRJBxn
+                        AEXD1SOoT/thoPyGnxNR+85/gf8AScbxJT/+Q/wN+kEHGcDrZqxtvYTuG4zgX0U1T63
+                        H5wteg/JN/wC4k5JVP8DTq+IBypVv5f1Mip8YwROUCpfuxH/6ibjWCBtkqH+Jv+qF/Y
+                        KRP/6+/KhUPqF/WMxPG67U3FKiUcghGbKQrciRzg9fj+DQ29lVY9iT+LTr+IsItr0X+
+                        v6xX9h6Knhi44GjVxC0nR7B3Odqi3NmzHZCDfQDKLW0gvGKeLeoQ1CitBrizF3qZfvH
+                        UBTbly7zRYXxAtNitOkxpu10XQFWc+YWOhUuS1yRYseU7j1d39nlVA11Z75mAPvZVAs
+                        Da9jfToZlPtM1x7TRicVgkTB0KxQBwqOzW8zBrE5r9A30kv7AtRbNmKtrlHu9tJf45V
+                        qZkYeW1svIDawlHTR6RVFqOAdEDhDoOV7XPxnNKV7Z2Rx0qSFheAIgPszUBPRyBf0vY
+                        +hEN4PQ8pYkXZ3JNrZhmKhtNwQL9NZOMM9v7xywP2bhR6HIFuOxvDsPTvyAtoABYCw5
+                        DkInKxqNA+PwQZQeYIO3QiUtHgCEuayqyISyhrAfeJJPw1PTtNSTpAeKuopMraKyMpP
+                        +eyDT0JhdLRPHk0VRqPTSmQqopIRkCgDKfukdu80i8F+7RYg63JH5mZnhqt7PJUHkp
+                        suQkbhQxNr9NB8RNLW8ROEUhTYjQX2+k1wPsy+prS87JBwFuVFB6kf6wat4Ydmvai
+                        vqCx/KcbxA5ps1jcAm2YzON4oZ3OZBsDqSZ0pnIy+/9CRGHtMUim/uoiD8bmGDGoC
+                        EBLWGjHQm3OYXB8fZq6rkQam9lhNKsWxS/wCUyZNgjX4vGKANfnKg4q9SwYm6k25S
+                        Pid8qwTAqTW/gP4yfAXssMLin9oLvpfa2lpb4nEPfRrC2wAmYqVSgdxutyPUSPgXG
+                        3rArUXzb3+O0dpOibLWriHzf7xrdNIM9d73zkjpHM2sicSqFY/D523Y7yvxFMnFMu
+                        Y2C9Zd8OT8RK+sv+1v6CQ1stf8kmBwtnUd5ovZyowI/vFl/kg0CMNSeoaefPTA6hb
+                        xO1RVBNWmPVQJaJQQrkVAAOVtI6vglPvIvTXaZ/u25X4M+CogoLUCFmamb7FQNrdY
+                        32dRwrU6iA/aBUfjOrSdCwsGQ9BqNOQ6SqwWIyOSGsFuLHn2En9aXJtD4qqYXicYy
+                        OVqOLjchBbtHs9UlWp1aVv3gLX+UExGCatUYgaWFmP1l1TwF0CIFAVRvzPWP904rb
+                        thxskT9pWmDnw+4Hui2u0Jp/tgGUths3I5dJX16ahShJzgX0HlB7GB4anUWouYqy6
+                        31/KC+olLY6ovDjsTTBNVsORyyJf84RgcTjHNx+z5cuYXQA276ynqU1aoMpGQakDT
+                        XpO1LklFYX006D1ieZ2NItqWNxpYZRhiCbAZbH8YVk4pm9zDZfQXt85mnxSJqzBrG
+                        w/WSrjUcC19Ta4vGs7XaHRoK54mG8lGgV7gX/5p3EVeJC2TD0W01uBv/PKsYSm+j4
+                        qpStsys4v8jCavCAwzUuJ1BYcqja/8U1U01YUGHGcQGW+GpkXGaw1tzynNva8biah
+                        XFqn7rXNtriwP9d5VV+JtQp+bE1HNvezN87Xk+IqN7KliM2dsrAudc12DIT32HzmW
+                        SafXg3+nl8mvaBeJYesmqFbnW25/SVJDuwZ9SoIHa++3OXlXjSkGnjAyVQWIanSc0
+                        yg1Q5zdQbEX1Go9JS4nilBSwShiqujAHMiDMVGU6PcC/O3M7yHjs7Fl8NbCMNjGXy
+                        VNV5Hmvp1EtMO5HxmSw2Drl2quzU1PuUQ5cAdy3PblNUnlKgcgB8hM3p0O7XQYW3g
+                        +IKs5VreUA2YAg/a58xYR6PyjsWL02A+0rC/wMb2ibon4fi8N7Qmqys5AAW4IA3/S
+                        XFsK42FvQyup+D6TZHDnPlW9iCL2ANp2v4Za1lbadcUoqjgnJydss1wOGOwWRVeAU
+                        HN8q/JTKarw2uiGxYm2mt5SLxjF0XbOl1FraW+olEWav/2tRDh1RLjY5bfhGpwBAw
+                        b2aEgWuDrKvhXjUO5SohSw0J2PXWa6hUDAEbEQGqKLHcNp2GdGXvuIDT4SgcvTYHy
+                        27zWuZW4vh6NdlFmty5+sQUYbiNMKlQtoAGvKvwng1NP26uxD3FuWhmkx2ADI6n7Q
+                        IOsi4JwxKdBUUWtfS/eNxTaZAz2UjZJYthR3g7YQXvc/OUKgrhaafGVddf8Aa39BL
+                        fB0bDcjWVtXDk13N+kl9lLoJ4cL1FmiySh4bTy1VY6gTQ+2WOgWjM4vHU0Fj5iDbp
+                        aOplKgC2NjuO4mew2DapWf2jBbEGx5i+thNVlFNbpbsPxnjzko6XZcVewXEJkW9+w
+                        uZl0w+aoxb3Rr/pNJj66spDWOlwOXzmaVH9qwGqC19eU0xZLsUiwbiaLlGbyWsRsT
+                        6R+F4wtWoUpkqii57mZXHBkqEFDa5KgjlDfDNvau1rXWwvsD0m0sa48iXKzX0yjqW
+                        UkkDn1lQcQPdtqDe/WRYZ2S9zbfS9+e8G4vUAsVN9rwhHdBYsZxTIylTex8wHOH4W
+                        uaik5MoI97mZQYF1zHOhdTrpy7mX2AxSZDlIULcZdzHN1pIEDHhyltydddb2EtGcJ
+                        ZU1tc2AgeGdLhE1LG5uYLjw3tciHLobnYW5wvlpgWWHxqvUsD5hoFPWHmoFGVSC17N
+                        ra9+koOBcM/vM7guo+0rf1rLk8KDOPZsUCc3Fyb8u8zkt0noqtFFxXPnC0wSD5S
+                        dwDeaDg2MUVFw9RrpUAS40C1AfJryvqvxHSA49KyKAAbhwQQLBheVxOQkvp58xA
+                        F+elprCnVkpyi7R6RxWndQCtx+cz9UAHyqBLfBcTXE0Q6+8NHQ7o/O46G1wekpc
+                        TUIc23+gEeQ9HC00NCXOu3O/OOpWBuTBnxJ2jFck9phZsFLWJawlhTGYAFsoNgW
+                        P2QdCT6QFdPlH16tqbf5T+EfKiXGwqj4crI2elUDodcyNv8jrDl4pWp6OrH/NrP
+                        F+Acaq8Ox5ekzGlmu9MHyvTbcW2zAbHqByvPfcFxfD4hFYEWcBlzW8wIuCDsZ3K
+                        qTXk8ySp0RYXj6sP7xSvfcfHpDmp06q3AVweYsfrBsVwdGHlFvwlOOG1KVS9Isp
+                        J21ZG9RyhsNhuJ8O0ybqBfXcfnD8JTyqF6CEKxyDPYNbUKbi/YziDSUM48idrAk
+                        9JORKniGIucoOg3gJlRiNb25mLBUzr0hOGTM1yNNh6dYSUA0EbRIC6SF0hziQMs
+                        AI6AgRT+8cw9IN9ppI/BJgVtUEtJXYY+aH5owKLCKie8QTrqeevWPfFq5ZAQG2M
+                        zuMqEEhTmueu3WE4OooXzEq51vy+E8VQ8sfIIqYRzVuFLKotcbbdJY4bhuVSXsp
+                        YC5007AwbhvE7sEvtftfvHVuIOxN/KPs32NpVtOiotUZbxM9msHvl01GpjvD7Bk
+                        YOCq6EOBv8AGXGLo061Nhoz2zAW+18N4A/DqtGiq1CVYk+TlZtVsZ1RmpQryQ47
+                        stWxSAWy3WxG3L16zMYxw5sBYa25QnhmPKVslQhlJ1tqJqKtak1POFUAXGYrewj
+                        5Sg6qx6ZiMChFVVU2JFjbW80HDfCjM+ao5Cm7EjZhyA7y54Fg6Ln22QI6gqpvoR
+                        1tLGnjAWsbXXRR1B5yMmSTetCVLson4BTapnplqZU2t1tzIMHpcLT2hao7MbnXt
+                        3Eu6tdDULFxdbAr/rC8NRRQW8pzG8y5yj5sa2CYbh6IoVTpv0vDg4XpbvGnFKWK
+                        2FhzI0guNoltE+J5fKZp32X10dTFZ3KtsJW8VpKmZ6aqdLG/Lv6yWmhRWbKOmYn
+                        l0AlXjMSj3ubLzF5rjT5KiZPRS8Xx1Om37QCysBayMQTe2gPUkTY+CONDHYM1HC
+                        ipTYpUAAAOgKOANrg/NW5TxvxLj/aVSqHyISB3PM/l8O81H9jvE8mLqUGtlrU/+
+                        Oncp9GcfET0JR+JWJtM9B4lggoLr1sRKhqhzbS548+Rsp520+Ez1MlmYnTLynHL
+                        s9CPQf7eZ3xDx3IhUHXYSbF4s2JGnSYDiWK9pUJB8oOnc9Zpix8pb6IzZOMddkD
+                        VCzFm3P8AVpvfAHGA3+y1Drq1I335tT9d2H8XaYCOz2t6jXoes7qVUec9n0dwSt
+                        WvltmTmWuCvoefpL2xM8O8Lf2lYnD5aeI/v6Y0sxtUUfuOfe5+Vr+onsHAeP4fF
+                        08+GfNb30PldD0Zdx6i4PImLjQ0HONDEg0nWXQwLFYvTKnxP6RA3RzH4q3kTfme
+                        kqkpZyR9ke8ep6SVKZdsqnQe83TsO8LCBRlXYRi7IqaWMkdJwnSOgIHdJA9OGvI
+                        HWIoEZIO1PUw5lkTJACCho0JvIQtjH5ogR5EmKcAmxK3GsKxXEHYL1Xb09JJgeD
+                        O+Hd1N0pt7t97DeVaMzt5QWNthvac8VCTdeCWmGUeIvnBF2Y2Fu3SwmmrJWqZFU
+                        ZFK3Oa2nWV3gnBsa7uEOiH3wQNd7G28teK4lyyinSYim1jlN+fOYZ1uorY4oL4Z
+                        hadPMbkuoF/jzHaD+IqzPTAJBNwV11tJMZwys7B2yppZwCdQNfnEvsrWFrKQNSS
+                        b8ySZzwi1JN7ZTeqMtgcEzVAhuL6lugltisUEpGlTPunzE21vsRDKxZA+UXRrDO
+                        PeW/MTtZKFOnYAEPoS173tyJnc3dWZM6tIqqO7hiF3QkXFtLxlD2jgOiFWQ5fMT
+                        Y352lZxFihUKfKgAveyk25CH4PEt7NqjM1trcgQN5nKLoArE0PYsrPd3sWcEDLY
+                        9JPg8ZSyALcNe+p09AJRpjXc+Ul9Mt9tD1kGKpeze2bM2m3LtM/0rdMLNOvEQLl
+                        QL9v0k2GxikXZtzoDo0ya4h0bTynoRDFysEbN52JvfS3cdoPDRSky249j6VNC9i
+                        zHRVJNifTb4zzvFY16lS525KNBfl9bQ3j+LLVLE3C+UdLD9d5V056eDAscfu+wb
+                        spXw22lri/x5iXHgtvZ4wMdMqtbudrfWC4+iCc3QGc4ShUq/JWQMdNM9/0HyHUR
+                        5I/Fo0xummey16q1DckZgCpuddNrSpxeHNMORs4FvmQZj28WqrAIl2UeZmbKpIs
+                        DlABJ+kD4r43r1cqrkRV2CILnuWa5+VpyLDJ/Y63mjHXYT4mxpRBTB87C5/dT9T
+                        qPnMwojamNLuWqEljuSb3+McuuonTCKjGkcs5OUrO2jCdfSOdrC8aolkDzDOH8Q
+                        qUai1KTsjr7rqbMO37w7G9+8CBj1MEwPavCvj8YpRQr5UrkWVxolbT7P3X/AHef
+                        LoNKKJY5V0+83TsO8+dUa239dweRnqXgjx+pC4fGNa2iVjp6Cr/1/PrCvQmej00
+                        CLlUWEhqSZh8uvUSJ4hA7nSOQ6SNzO0dogHtImkjSJoihjSJpKwkTCADGEbaPMb
+                        ACrq8OpjD5CxVACzIh1I3IBmJwmFqvW9rgqfs0AyqSNwN9NyZe8YxNU1FanawNl
+                        y7G/wBkyfw9iKzu7iyCmcpQAHX8p5OC0m1/rC7Zd0uIOtBhVGR1S5UKAxHf1lTw
+                        /GBKiKFcZxmA0Ja+235y142y3pur2q5hdGHmdNmuB6zH8Srvh8Yxp1AzHzMACuQ
+                        fcse34zqULXYm2XuM4o6ErXQouhF92BO4tK3jFFf2YPh+RuxJ5c5PRxhrFqlZ1Z
+                        RZF7tuLQ/E4RTRZFABI56j6bCSo8ZWJsz+Hq1DTQUwGubtqL9hDsbQDoTUbI1rW
+                        cgWIGpHIxmApU6OQNY1FuxsdL/dMP8AEFFatAMEYOTcC2m2t43L5UIyT1CVCMQQ
+                        p8p5wn9tYbjyjQaaXG9+8JwHh96pzFlAXQnqbXjsdTpUqZp0xnc7udgevrNnxb9
+                        iFhatMUyVWzN73RRfcyfA06ftVfMun3hcXHOUiM1idTbe0b7Q7RPFvQF1iHR3d6
+                        jXa9gALA25weotPNceVQpPa4F4ErdPjO4xi1N1H3Gt65TaVGFeQRnXbMbn+uU4
+                        I9V8t+tpCzazvGdqrofQwHEViqsoJAa1wDoTuLjnb9Ic+sqcS2Z/TT9f67SJMp
+                        DFqt7MpplLByLC5YAqtzvYBmsP3jI/Yk9oQE5R9pFDA/YzgUjaF5YrRUBFZja/
+                        /mPAjoiIIDgnYjFG0AgZ3N3+MaYjADbeE/7QamEpijVT21IHyjMVdBzykggj90
+                        2HcT13h/EKeIoJXotmRxcciCNGVhyYEEEdp82oZ6B/ZZx8U6zYSo1krHNTvstU
+                        CxXtnFvigHODXkD1GpO0doqgnae0kkTRjRxjGiKGmRtJDGNACMzk6YoAYvjFKz
+                        H2bXF7gnTXrYSx8PIqGyHMX1e5suYC5Okqjw1yzmpqFY5yp1PoJaYHiNJCqU0C
+                        EmwLHUk6W1nkJXJJEruwmtVZqpqYaoufKQFcFgNNSGmJ4phaq1DWrupeo2tv0m
+                        yTEI2ZmGR1chhfQ20Fu0qcTQWvUyE6hgdtLTqjNx0x1oo+H0w6MhfKAQQLaE+v
+                        IzSLhqiYds7lMzBVYkE5RvcySni8MtqQS2U6hQDdxt8IJxzF5kyVDlIPktt3uB
+                        KtyZBO2FpUqTGo92qEEEC503kScZvVATyqFyqG+13MCw1TObFVAQavrp0IvzgO
+                        JrIx5kjQE8xLUVYFvieLulNUQZLFizaedt9pT1axZbW31ncTUV1BUZco1HW3P1
+                        kC5iBc6DQTWMdCJ1qkCy+W+htzklDDp9tt9rcoKu8JoUXdgtNWZjsFFyfgI3EB
+                        +PoIrAU2LDmT1jsDQd3CorOx+yoJM1nBvATvZsW2RfuKQXPq2y/C/wAJveGcNp
+                        UFy0aaoOZG59WOp+MaVKi1E+e+L4Y0arUiLFCVt0y6G/fSVNpb+JsTnxmIbka1
+                        Qj0ztb6WlQzTpA49QqpPb68oCmHsFYkeYE+lrH4+987jlCcQLqYKlOy+pkS7Gi
+                        RYop2AxsRnSI0mIBRt5xpySwOzl50bRoaNAdvOCcYxAwAepktjYFSQy2KkGxBG
+                        oIPIwcGT0njiJnvfhvi/7Vg6dc+8Vy1AOVRNG05AnUdmEtV2nl39lPEGWvUw1i
+                        UdTU/yOmVSfRgVHqqz1FpMlTEcMjJjzGmIoaZGZI0jMRIwxTpnIAUnEKxQk01S
+                        /M87jqJnKHEDVxKq4XX7VvdA106RRTycSVv+h+SzWorHIxAQHmQSfWC44ItnoH
+                        f3hc3FvwnYpp/JDK6vxZPaB1TzgWcnmPTrK+hiVNZXbMVDXN9TaKKd0YqiGF8U
+                        x/tDtbkCNMyja4EAGg057zsUtJUI6V0Bv8IbggWstNHdybKFBOnoIoowNdwXwC
+                        72fFNkB1yKQXPqdl+s3vDeF0cOuWigXqd2Pqx1M5FA0SQbeJmspPQE/IXiigM+
+                        YKz3JJ3Op9TIrzkU6X2QjjcpA66/1/XWKKQwOETkUURRwmNM7FEBHecJiiiA4H
+                        5RiGKKMBNvFFFEwR0SRIooIGa/+zfjKYbHWq6JVT2Wb7jllKk9FJFj6g7Ce0OI
+                        ooSAiaNiikkjWjDFFEA0zkUUYH//2Q==" 
+                        alt="Tim Cook">
+                        <h3 class="font-semibold text-lg mt-4 mb-1">Tim Cook</h3>
+                        <p class="text-gray-500 text-xs mb-3">CURRENT CEO</p>
+                        <div class="flex justify-center">
+                            <button class=" mr-1 mb-1 outline-none rounded-full bg-blue-400 w-8 h-8">
+                                <i class="fa-brands fa-twitter text-white"></i>
+                            </button>
+                            <button class="mr-1 mb-1 outline-none rounded-full bg-blue-600 w-8 h-8">
+                                <i class="fa-brands fa-facebook text-white"></i>
+                            </button>
+                            <button class="mr-1 mb-1 outline-none rounded-full bg-blue-500 w-8 h-8">
+                                <i class="fa-brands fa-instagram text-white"></i>
+                            </button>
+                        </div>
+
+                
+                    </div>
+                </div>
+
+                <div class="w-full md:w-6/12 lg:w-3/12">
+                    <div class="text-center items-center mb-10">
+                        <img class="rounded-full mx-auto shadow-lg" style="object-fit: cover;max-width:250px ;" 
+                        src="../img/495160.png" 
+                        alt="kIdKib">
+                        <h3 class="font-semibold text-lg mt-4 mb-1">Gyimah Rokib</h3>
+                        <p class="text-gray-500 text-xs mb-3">Web Developer</p>
+                        <div class="flex justify-center">
+                            <button class=" mr-1 mb-1 outline-none rounded-full bg-blue-400 w-8 h-8">
+                                <i class="fa-brands fa-twitter text-white"></i>
+                            </button>
+                            <button class="mr-1 mb-1 outline-none rounded-full bg-blue-600 w-8 h-8">
+                                <i class="fa-brands fa-facebook text-white"></i>
+                            </button>
+                            <button class="mr-1 mb-1 outline-none rounded-full bg-blue-500 w-8 h-8">
+                                <i class="fa-brands fa-instagram text-white"></i>
+                            </button>
+                        </div>
+
+                
+                    </div>
+                </div>
+
+                <div class=" w-full md:w-6/12 lg:w-3/12">
+                    <div class="text-center items-center mb-10">
+                        <img class="rounded-full mx-auto shadow-lg" style="max-width:120px; object-fit: cover; min-height: 120px;" 
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrkZ4G5Qi7NfDkf-oc0uxQh7vKwB855pzr6g&usqp=CAU" 
+                        alt="Ken Samaras">
+                        <h3 class="font-semibold text-lg mt-4 mb-1">Ken Samaras</h3>
+                        <p class="text-gray-500 text-xs mb-3">Writter</p>
+                        <div class="flex justify-center">
+                            <button class=" mr-1 mb-1 outline-none rounded-full bg-blue-400 w-8 h-8">
+                                <i class="fa-brands fa-twitter text-white"></i>
+                            </button>
+                            <button class="mr-1 mb-1 outline-none rounded-full bg-blue-600 w-8 h-8">
+                                <i class="fa-brands fa-facebook text-white"></i>
+                            </button>
+                            <button class="mr-1 mb-1 outline-none rounded-full bg-blue-500 w-8 h-8">
+                                <i class="fa-brands fa-instagram text-white"></i>
+                            </button>
+                        </div>
+
+                
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+        <section class="relative   py-20 bg-black flex flex-col justify-center items-center" id="team">
+            <div class="bottom-auto top-0 left-0 right-0 w-full absolute overflow-hidden -mt-20" style="height:80px ;">
+                <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2500 100" x="0" y="0">
+                    <polygon class="text-black fill-current" points="2500 0 2500 100 0 100"></polygon>
+                </svg>
+            </div>
+
+            <div class="flex mb-10 flex-col items-center text-white md:w-4/12">
+                <h2 class="bold mb-5 text-3xl">Contact Us</h2>
+                <p class="leading-relaxed text-sm text-gray-200 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis cupiditate quos quidem dolorum 
+                    voluptates perspiciatis quis, voluptatibus laboriosam nostrum quae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aperiam minima itaque nulla hic quam rerum nisi? Dignissimos
+                    aut maxime exercitationem ab veniam ex iusto eligendi 
+                    ipsam, laborum qui, natus minima!
+                </p>
+            </div>
+
+            <div class="flex justify-center flex-wrap">
+                <div class="w-full md:w-3/12 mb-4">
+                   <div class="bg-white rounded-full mx-auto text-lg w-12 h-12 flex items-center justify-center">
+                        <i class="fas fa-medal"></i>
+                   </div>
+                   <h3 class="bold text-xl text-center text-white mt-3 mb-1">Lorem, ipsum.</h3>
+                   <p class="leading-relaxed text-sm text-gray-200 text-center">Lorem ipsum dolor sit, 
+                    amet consectetur adipisicing elit. Inventore optio debitis culpa. Obcaecati error,
+                    expedita dolores natus ullam iusto quia! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Magni quae illo iusto quasi id ea amet eligendi ab aliquam quidem.</p>
+                </div>
+
+                <div class="w-full md:w-3/12 mx-10 mb-4">
+                    <div class="bg-white rounded-full mx-auto text-lg w-12 h-12 flex items-center justify-center">
+                         <i class="fas fa-poll"></i>
+                    </div>
+                    <h3 class="bold text-xl text-center text-white mt-3 mb-1">Lorem, ipsum.</h3>
+                    <p class="leading-relaxed text-sm text-gray-200 text-center">Lorem ipsum, dolor 
+                        sit amet consectetur adipisicing elit. Cumque quaerat nemo architecto 
+                        ut, neque similique dolorem molestiae totam id quo. ipsum 
+                        dolor sit amet consectetur adipisicing elit. 
+                     Magni quae illo iusto quasi id ea amet eligendi ab aliquam quidem.</p>
+                </div>
+
+                <div class="w-full md:w-3/12">
+                    <div class="bg-white rounded-full mx-auto text-lg w-12 h-12 flex items-center justify-center">
+                         <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 class="bold text-xl text-center text-white mt-3 mb-1">Lorem, ipsum.</h3>
+                    <p class="leading-relaxed text-sm text-gray-200 text-center">Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Provident, neque accusamus pariatur quisquam inventore voluptatibus 
+                    eum natus doloribus hic esse. ipsum dolor sit amet consectetur adipisicing elit. 
+                    Magni quae illo iusto quasi id ea amet eligendi ab aliquam quidem.</p>
+                 </div>
+
+                
+            </div>
+        </section>
+
+    </main>
+</body>
+<script>
+    function toggleNavbar(collapseId) {
+        document.getElementById(collapseId).classList.toggle('hidden')
+        document.getElementById(collapseId).classList.toggle('block')
+
+    }
+</script>
+</html>

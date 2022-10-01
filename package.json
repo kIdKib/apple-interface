@@ -1,0 +1,14 @@
+{
+  "name": "apple",
+  "version": "1.0.0",
+  "description": "apple UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kIdKib",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
